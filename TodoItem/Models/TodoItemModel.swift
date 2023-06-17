@@ -8,13 +8,13 @@
 import Foundation
 
 struct TodoItem {
-    var id: String
+    var id: String // you should use let, because our struct should be immutable
     let text: String
     let deadline: Date?
     let doneFlag: Bool
     let creationDate: Date
     let modifiedDate: Date?
-    let importance: String
+    let importance: String // I think you should use here your enum Importance
 
     init(
         id: String? = UUID().uuidString,
