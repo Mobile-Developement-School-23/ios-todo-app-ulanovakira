@@ -8,13 +8,13 @@
 import Foundation
 
 struct TodoItem {
-    var id: String // you should use let, because our struct should be immutable
+    let id: String
     let text: String
     let deadline: Date?
     let doneFlag: Bool
     let creationDate: Date
     let modifiedDate: Date?
-    let importance: String // I think you should use here your enum Importance
+    let importance: Importance
 
     init(
         id: String? = UUID().uuidString,
@@ -31,7 +31,7 @@ struct TodoItem {
         self.doneFlag = doneFlag
         self.creationDate = creationDate
         self.modifiedDate = modifiedDate
-        self.importance = importance.rawValue
+        self.importance = importance
     }
 }
 
@@ -49,8 +49,8 @@ extension TodoItem {
             "doneFlag": doneFlag,
             "creationDate": creationDate.timeIntervalSince1970
         ]
-        if importance != "normal" {
-            dict["importance"] = importance
+        if importance != .normal {
+            dict["importance"] = importance.rawValue
         }
         
         if let deadline = deadline {
@@ -116,8 +116,8 @@ extension TodoItem {
         } else {
             string += ";"
         }
-        if importance != "normal" {
-            string += importance + ";"
+        if importance != .normal {
+            string += importance.rawValue + ";"
         } else {
             string += ";"
         }
