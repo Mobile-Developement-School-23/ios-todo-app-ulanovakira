@@ -7,136 +7,248 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "24257DE1-1D98-41DD-8725-16375F574805"
+            uuid = "A66BE2E9-CB2E-431C-A185-BFEBBBA48E48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodoItem/ViewControllers/TodoItemViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A66BE2E9-CB2E-431C-A185-BFEBBBA48E48 - 237822269cbb8f4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "A66BE2E9-CB2E-431C-A185-BFEBBBA48E48 - 237822269cbb8f4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "A66BE2E9-CB2E-431C-A185-BFEBBBA48E48 - 237822269cbb80f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "A66BE2E9-CB2E-431C-A185-BFEBBBA48E48 - 237822269cbb803a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "A66BE2E9-CB2E-431C-A185-BFEBBBA48E48 - 237822269cbb8074"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "712A19D0-0804-4B6B-9ECB-A559A64D81FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodoItem/ViewControllers/TodoItemViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "TodoItemViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "712A19D0-0804-4B6B-9ECB-A559A64D81FF - 3817b4f9c5995467"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.calendarView.getter : TodoItem.CalendarView"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "712A19D0-0804-4B6B-9ECB-A559A64D81FF - 987e46012203ea03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TodoItem.TodoItemViewController"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "712A19D0-0804-4B6B-9ECB-A559A64D81FF - fcf18ae46b356e0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TodoItem.TodoItemViewController&gt;"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "712A19D0-0804-4B6B-9ECB-A559A64D81FF - 987e46012203eb96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TodoItem.TodoItemViewController"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "712A19D0-0804-4B6B-9ECB-A559A64D81FF - fcf18ae46b356f99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoItem.TodoItemViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TodoItem.TodoItemViewController&gt;"
+                  moduleName = "TodoItem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF790504-D9E3-42D8-B31A-EE6B7A01297F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TodoItem/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "prepareItemView()"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "buttonTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C44E4EAA-ADA6-45EA-9C73-8F1485DDD8B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodoItem/ViewControllers/TodoItemViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "setConstraints()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "24257DE1-1D98-41DD-8725-16375F574805 - 77e761ca6b502cb6"
+                  uuid = "C44E4EAA-ADA6-45EA-9C73-8F1485DDD8B9 - 9dc7efac813cacf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.prepareItemView() -&gt; ()"
+                  symbolName = "TodoItem.TodoItemViewController.setConstraints() -&gt; ()"
                   moduleName = "TodoItem"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "24257DE1-1D98-41DD-8725-16375F574805 - 77e761ca6b502cb6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.prepareItemView() -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "24257DE1-1D98-41DD-8725-16375F574805 - 77e761ca6b502b9f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.prepareItemView() -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  uuid = "24257DE1-1D98-41DD-8725-16375F574805 - 77e761ca6b502b9f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.prepareItemView() -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "24257DE1-1D98-41DD-8725-16375F574805 - 77e761ca6b502b9f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.prepareItemView() -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "24257DE1-1D98-41DD-8725-16375F574805 - 77e761ca6b502b70"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.prepareItemView() -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "24257DE1-1D98-41DD-8725-16375F574805 - 77e761ca6b502b70"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.prepareItemView() -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
                   offsetFromSymbolStart = "72">
                </Location>
                <Location
-                  uuid = "24257DE1-1D98-41DD-8725-16375F574805 - 77e761ca6b502b51"
+                  uuid = "C44E4EAA-ADA6-45EA-9C73-8F1485DDD8B9 - 9dc7efac813ca91"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.prepareItemView() -&gt; ()"
+                  symbolName = "TodoItem.TodoItemViewController.setConstraints() -&gt; ()"
                   moduleName = "TodoItem"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
+                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewControllers/TodoItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
                   offsetFromSymbolStart = "72">
                </Location>
             </Locations>
@@ -145,112 +257,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7CBAD10A-9BE9-4ED6-B2B2-123E71203A7F"
+            uuid = "5B8EC8FC-C122-41F4-9EC8-721F68ADCCFF"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TodoItem/ViewController.swift"
+            filePath = "TodoItem/ViewControllers/TodoItemViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "266"
-            endingLineNumber = "266"
-            landmarkName = "didTapSwitch()"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "loadView()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7CBAD10A-9BE9-4ED6-B2B2-123E71203A7F - 747655d32a1606b2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.didTapSwitch() -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "241"
-                  endingLineNumber = "241"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  uuid = "7CBAD10A-9BE9-4ED6-B2B2-123E71203A7F - 5c1f2f05f52a45ff"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.didTapSwitch(__C.UISwitch) -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "241"
-                  endingLineNumber = "241"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  uuid = "7CBAD10A-9BE9-4ED6-B2B2-123E71203A7F - e9e57f1a3ff6a46d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.didTapSwitch(sender: __C.UISwitch) -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "241"
-                  endingLineNumber = "241"
-                  offsetFromSymbolStart = "52">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2E0989BE-DC5F-43A2-B79A-8B075834F891"
+            uuid = "0F04740F-82EA-4B7F-81C9-278AE179544B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TodoItem/ViewController.swift"
+            filePath = "TodoItem/ViewControllers/TodoItemViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "327"
-            endingLineNumber = "327"
-            landmarkName = "loadFromSaved()"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "loadView()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2E0989BE-DC5F-43A2-B79A-8B075834F891 - 5b6cc2c623a8cb2e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.loadFromSaved() -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "309"
-                  endingLineNumber = "309"
-                  offsetFromSymbolStart = "524">
-               </Location>
-               <Location
-                  uuid = "2E0989BE-DC5F-43A2-B79A-8B075834F891 - 5b6cc2c623a8cb2e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TodoItem.ViewController.loadFromSaved() -&gt; ()"
-                  moduleName = "TodoItem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kira/swift_practice/shmr/ios-todo-app-ulanovakira/TodoItem/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "309"
-                  endingLineNumber = "309"
-                  offsetFromSymbolStart = "284">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
