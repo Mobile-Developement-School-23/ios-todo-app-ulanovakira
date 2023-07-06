@@ -110,10 +110,10 @@ class ViewController: UIViewController {
         cancelButton.setTitle("Отменить", for: .normal)
         cancelButton.titleLabel?.font = UIFont(name: "San Francisco Pro Text", size: 17)
         
-        cancelButton.addTarget(self, action: "cancelButtonTapped", for: .touchUpInside)
+        cancelButton.addTarget(self, action: #selector(self.cancelButtonTapped), for: .touchUpInside)
         saveButton.setTitle("Сохранить", for: .normal)
         saveButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17)
-        saveButton.addTarget(self, action: "saveButtonTapped", for: .touchUpInside)
+        saveButton.addTarget(self, action: #selector(self.saveButtonTapped), for: .touchUpInside)
         
         itemLabel.text = "Дело"
         itemLabel.font = UIFont.boldSystemFont(ofSize: 17)
@@ -254,7 +254,7 @@ class ViewController: UIViewController {
         removeButton.titleLabel?.font = UIFont(name: "San Francisco Pro Text", size: 17)
         removeButton.backgroundColor = .white
         removeButton.layer.cornerRadius = 16
-        removeButton.addTarget(self, action: "removeButtonTapped", for: .touchUpInside)
+        removeButton.addTarget(self, action: #selector(self.removeButtonTapped), for: .touchUpInside)
         NSLayoutConstraint.activate([
             removeButton.topAnchor.constraint(equalTo: secondStackView.bottomAnchor, constant: 16),
             removeButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),

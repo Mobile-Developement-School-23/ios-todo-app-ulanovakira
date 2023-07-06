@@ -65,38 +65,35 @@ extension TodoItem {
     
     static func parse(json: Any) -> TodoItem? {
         var todoItem: TodoItem? = nil
-        var dict = (json as! [String: Any])
+        let dict = (json as! [String: Any])
         var deadline: Date?
         var modifiedDate: Date?
         
-        do {
-            guard let id = dict["id"] as? String,
-                  let text = dict["text"] as? String,
-                  let doneFlag = dict["doneFlag"] as? Bool,
-                  let importance = dict["importance"] as? Importance.RawValue,
-                  let creationDateInterval = dict["creationDate"] as? TimeInterval
-            else {
-                return nil
-            }
-        
-            if dict.index(forKey: "deadline") != nil {
-                deadline =  Date(timeIntervalSince1970: dict["deadline"] as! TimeInterval)
-            } 
-            if dict.index(forKey: "modifiedDate") != nil {
-                modifiedDate = Date(timeIntervalSince1970: dict["modifiedDate"] as! TimeInterval)
-            }
-            let creationDate = Date(timeIntervalSince1970: creationDateInterval)
-            todoItem = TodoItem(id: id,
-                                    text: text,
-                                    deadline: deadline,
-                                    doneFlag: doneFlag,
-                                    creationDate: creationDate,
-                                    modifiedDate: modifiedDate,
-                                    importance: Importance(rawValue: importance) ?? .normal)
-
-        } catch {
-            print("Failed to parse json")
+        guard let id = dict["id"] as? String,
+              let text = dict["text"] as? String,
+              let doneFlag = dict["doneFlag"] as? Bool,
+              let importance = dict["importance"] as? Importance.RawValue,
+              let creationDateInterval = dict["creationDate"] as? TimeInterval
+        else {
+            return nil
         }
+    
+        if dict.index(forKey: "deadline") != nil {
+            deadline =  Date(timeIntervalSince1970: dict["deadline"] as! TimeInterval)
+        } 
+        if dict.index(forKey: "modifiedDate") != nil {
+            modifiedDate = Date(timeIntervalSince1970: dict["modifiedDate"] as! TimeInterval)
+        }
+        let creationDate = Date(timeIntervalSince1970: creationDateInterval)
+        todoItem = TodoItem(id: id,
+                                text: text,
+                                deadline: deadline,
+                                doneFlag: doneFlag,
+                                creationDate: creationDate,
+                                modifiedDate: modifiedDate,
+                                importance: Importance(rawValue: importance) ?? .normal)
+
+
         return todoItem
     }
 }
@@ -141,7 +138,7 @@ extension TodoItem {
             text = values[1]
         }
         if !values[2].isEmpty {
-            deadline = Date(timeIntervalSince1970: Double(values[2]) as! TimeInterval)
+            deadline = Date(timeIntervalSince1970: Double(values[2])!)
         }
         if !values[3].isEmpty {
             if values[3] == "true" {
@@ -151,10 +148,10 @@ extension TodoItem {
             }
         }
         if !values[4].isEmpty {
-            creationDate = Date(timeIntervalSince1970: Double(values[4]) as! TimeInterval)
+            creationDate = Date(timeIntervalSince1970: Double(values[4])!)
         }
         if !values[5].isEmpty {
-            modifiedDate = Date(timeIntervalSince1970: Double(values[5]) as! TimeInterval)
+            modifiedDate = Date(timeIntervalSince1970: Double(values[5])!)
         }
         if !values[6].isEmpty {
             importance = values[6]

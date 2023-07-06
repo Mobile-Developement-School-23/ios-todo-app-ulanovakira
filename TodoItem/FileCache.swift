@@ -25,7 +25,7 @@ class FileCache {
     }
     
     func saveToJson(to filename: String) {
-        var jsonTodoItems = [[:]]
+        var jsonTodoItems: [[String:Any]] = [[:]]
         for item in todoItems {
             let jsonItem: [String: Any] = item.json as! [String : Any]
             jsonTodoItems.append(jsonItem)
